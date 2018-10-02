@@ -11,7 +11,13 @@ $(document).ready(function () {
     $("#btnAceptar").click(function(){
         $("#modalModificarPaquete").modal("toggle");
     });
-
+    
+    function alertar(button) {
+      button.on('click', function () {
+      alert("Holi :D (OMAR ES GUAPO)");
+      });
+    }
+    alertar($('#alerta'));
     //Esconder menu lateral a presionar click en el menu hamburguesa
     $('#sidebarCollapse').on('click', () => {
         $('#sidebar, #content').toggleClass('active');

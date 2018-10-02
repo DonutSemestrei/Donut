@@ -84,6 +84,15 @@ li a, li a i{
     display: flex;
     width: 100%;
 }
+.AZ {
+    color:#007bff;
+}
+.MO {
+    color:#6f42c1;
+}
+.GR {
+    color:#6c757d;
+}
 
 #sidebar {
     width: 240px;
